@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif; 
+  
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+div label {
+  width: 200px;
+  text-transform: uppercase;
+}
+
+div input {
+  width: 100%;
+}
+
+#memes {
+    display: flex;
+    padding: 5px;
+}
+
+.meme {
+  font-weight: 800;
+  margin: 5px;
+  color: white;
+  display: flex;
+  width: 350px;
+  height: 350px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
