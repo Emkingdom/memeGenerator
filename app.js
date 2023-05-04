@@ -6,7 +6,6 @@ const memes = document.querySelector("#memes");
 
 function handleSubmit(e) {
   if (textT.value && textB.value && imgURL.value) {
-    
     const meme = document.createElement("div");
     const topText = document.createElement("span");
     const buttonText = document.createElement("span");
@@ -28,8 +27,8 @@ function handleSubmit(e) {
   e.preventDefault();
 }
 
-function handleDelete (e){
-    e.target.remove()
+function handleDelete(e) {
+  e.target.remove();
 }
 
 memes.addEventListener("click", handleDelete);
